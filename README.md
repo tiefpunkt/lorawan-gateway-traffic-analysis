@@ -12,6 +12,7 @@ This flow acts like a LoRaWAN network for your gateway, takes in packages via th
 * Install Node-Red with the [InfluxDB nodes](https://flows.nodered.org/node/node-red-contrib-influxdb)
 * Use the "Import" function in the Node-Red menu to import the ``flows.json`` file.
 * Enter the InfluxDB credentials in the last node.
+* Enter your gateway EUIs in the "Gateway Names if available" node.
 * Setup Grafana, configure the InfluxDB datasource, and import the ``dashboard.json`` file.
 * Configure your Node-Red installation as an additional server in the [mp_pkt_fwd](https://github.com/kersing/packet_forwarder/tree/master/mp_pkt_fwd), by adding something like this section in the ``gateway_conf -> servers`` section:
 ```
