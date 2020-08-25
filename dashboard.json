@@ -15,8 +15,8 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 2,
-  "iteration": 1584185014742,
+  "id": 3,
+  "iteration": 1598378580985,
   "links": [],
   "panels": [
     {
@@ -185,7 +185,7 @@
                 }
               ]
             },
-            "title": "${__field.name}"
+            "title": "${__series.name}"
           },
           "limit": 10,
           "overrides": [],
@@ -194,7 +194,7 @@
         "orientation": "horizontal",
         "showUnfilled": true
       },
-      "pluginVersion": "6.6.2",
+      "pluginVersion": "6.7.4",
       "targets": [
         {
           "alias": "[[tag_DevAddr]]",
@@ -395,7 +395,7 @@
                 }
               ]
             },
-            "title": "${__field.name}",
+            "title": "${__series.name}",
             "unit": "s"
           },
           "limit": 10,
@@ -405,7 +405,7 @@
         "orientation": "horizontal",
         "showUnfilled": true
       },
-      "pluginVersion": "6.6.2",
+      "pluginVersion": "6.7.4",
       "targets": [
         {
           "alias": "[[tag_DevAddr]]",
@@ -586,7 +586,6 @@
       },
       "id": 2,
       "links": [],
-      "options": {},
       "pageSize": null,
       "scroll": true,
       "showHeader": true,
@@ -781,6 +780,7 @@
         "definition": "",
         "hide": 0,
         "includeAll": true,
+        "index": -1,
         "label": null,
         "multi": false,
         "name": "Network",
@@ -807,6 +807,7 @@
         "definition": "",
         "hide": 0,
         "includeAll": true,
+        "index": -1,
         "label": "Device",
         "multi": false,
         "name": "DevAddr",
@@ -856,5 +857,8 @@
   "timezone": "",
   "title": "Packet Statistics",
   "uid": "cls7Ab_Wz",
-  "version": 8
+  "variables": {
+    "list": []
+  },
+  "version": 2
 }
